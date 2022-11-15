@@ -32,3 +32,16 @@ input {
   grid-template-rows: repeat(3, 200px);
   grid-gap: 2rem;
 }
+
+img {
+  opacity: 75%;
+  box-shadow: 2px 3px 10px 5px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.5s ease, transform 0.5s ease, opacity 0.5s ease;
+  border-radius: 5px;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 5px 10px 5px rgba(0, 0, 0, 0.5);
+  opacity: 100%;
+}
