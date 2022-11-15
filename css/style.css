@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 90%;
+  max-width: 896px;
+  margin: auto;
+}
+
+.search-div {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  margin: 1.5rem auto;
+  padding: 1rem;
+  min-width: 200px;
+  width: 60%;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: 2px solid lightgrey;
+}
+
+.gallery {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-rows: repeat(3, 200px);
+  grid-gap: 2rem;
+}
